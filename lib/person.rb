@@ -7,4 +7,8 @@ class Person
         @name = options[ :name ] || "John Doe"
         @age = options[ :age ] || 0
     end
+
+    def greet
+        "Hello, my name is #{@name}"
+    end
 end
